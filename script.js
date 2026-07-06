@@ -10,3 +10,6 @@ function mostrarMensagem() {
             "Olá, " + nome + "! Bem-vindo ao EcoAgro!";
     }
 }
+function alternarModo() {
+    document.body.classList.toggle("escuro");
+}
