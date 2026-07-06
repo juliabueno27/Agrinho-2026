@@ -97,3 +97,34 @@ img {
     border-radius: 12px;
     margin: 20px 0;
 }
+/* Modo escuro */
+.escuro {
+    background-color: #222;
+    color: white;
+}
+
+.escuro main {
+    background-color: #333;
+}
+
+.escuro h1,
+.escuro h2,
+.escuro h3,
+.escuro p,
+.escuro li {
+    color: white;
+}
+
+.escuro nav {
+    background-color: #111;
+}
+
+.escuro footer {
+    background-color: #111;
+    color: white;
+}
+
+.escuro button {
+    background-color: #555;
+    color: white;
+}
