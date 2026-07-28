@@ -36,9 +36,9 @@ button {
     }
 
 input {
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 /* Responsividade para celular */
@@ -68,10 +68,12 @@ nav a {
     text-decoration: none;
     margin: 10px;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 nav a:hover {
-    color:#FFE4EC;
+    color: #FFE4EC;
+    transform: scale(1.05);
 }
 
 /* Caixa de conteúdo */
