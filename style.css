@@ -19,12 +19,15 @@ p {
 h1:hover {
     color: #E78FB3;
 }
-
+h2{
+    color:#E78FB3;
+}
 button {
     background-color: #F4AFCB;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 12px 25px;
+    font-size: 16px;
     border-radius: 8px;
     cursor: pointer;
 }
@@ -56,7 +59,7 @@ input {
 nav {
     background-color: #E78FB3;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-bottom: 20px;
 }
 
@@ -73,12 +76,12 @@ nav a:hover {
 
 /* Caixa de conteúdo */
 main {
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    max-width: 800px;
-    margin: auto;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
 /* Rodapé */
@@ -89,8 +92,9 @@ footer {
 }
 img {
     max-width: 100%;
-    border-radius: 12px;
+    border-radius: 20px;
     margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 /* Modo escuro */
 .escuro {
